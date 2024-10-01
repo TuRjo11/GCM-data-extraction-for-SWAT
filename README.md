@@ -4,5 +4,10 @@ These scripts are specially for the precipitation and temperature extraction fro
 
 Steps:
 1) Import the txt GCM data into a blank excel
-2) Run the script: Filter large GCM dataset
-3) Run the remaining scripts for extracting precipitation and temperature
+2) Run the script 'Filtering large GCM dataset'
+3) Run the remaining scripts for extracting precipitation and temperature into subbasin wise csv files
+4) Run the script'Station wise pcp and tmp for SWAT WGEN' in order to make the pcp and tmp file for creating WGEN database.
+
+Some notes: 
+**The precipitation and temperature extraction is based on 30 years for analysis
+
